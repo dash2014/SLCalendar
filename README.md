@@ -12,9 +12,9 @@
 ## SLCalendarProtocol
 
 >* this delegate method is choose one day
->` - (void)calendar:(SLCalendar *)calendar didSelectDateComponents:(NSDateComponents *)dateComponents;
+>* - (void)calendar:(SLCalendar *)calendar didSelectDateComponents:(NSDateComponents *)dateComponents;
 >* this delegate method is choose a range
->` - (void)calendar:(SLCalendar *)calendar didSelectRange:(SLCalendarRange *)range;
+>* - (void)calendar:(SLCalendar *)calendar didSelectRange:(SLCalendarRange *)range;
 
 ## SLCalendarRange
 
