@@ -1,9 +1,9 @@
 //
 //  ViewController.m
-//  SLCalendar
+//  SLCalendarExamples
 //
-//  Created by dash on 15/5/26.
-//  Copyright (c) 2015年 dash. All rights reserved.
+//  Created by dash on 2017/7/13.
+//  Copyright © 2017年 dash. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -33,7 +33,7 @@
 
 - (void)calendar:(SLCalendar *)calendar didSelectDateComponents:(NSDateComponents *)dateComponents
 {
-     NSLog(@"%@", [dateComponents.date descriptionWithLocale:[NSLocale currentLocale]]);
+    NSLog(@"%@", [dateComponents.date descriptionWithLocale:[NSLocale currentLocale]]);
 }
 
 @end
